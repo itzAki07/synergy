@@ -322,7 +322,12 @@ a:focus {
 	[BUTTONS]
 ----------------------------------------------------*/
 /* Button Bordered */
+.posrel {
+  position: relative;
+    top: 7px;
+}
 .btn-brd-white {
+  
   display: inline-block;
   font-weight: 600;
   line-height: 1.42857143;
@@ -1503,9 +1508,8 @@ a:focus {
         color: #8693a7; }
   .pricing-bg .pricing-red {
     border: 2px solid #aebcc7;
-    padding: 45.8px 0;
+    padding: 55.7px 50px;
     color: black;
-    /* background: #d15d5d; */
    }
     .pricing-bg .pricing-red h4,
     .pricing-bg .pricing-red span {
@@ -1545,7 +1549,8 @@ a:focus {
     border-right: none; }
 
   .pricing.no-left-brd {
-    border-left: none; } }
+    border-left: none; 
+  padding-bottom: 45px!important;} }
 /*--------------------------------------------------
 	[FOOTER]
 ----------------------------------------------------*/
@@ -2000,8 +2005,28 @@ body {
   transform-origin: right top;
 }
 
-
-
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 3px 15px;
+    margin-bottom: -1px;
+    background-color: transparent!important;
+    border: none;
+    color: black;
+    font-size: 13px;
+}
+.row {
+  display: flex;
+  text-align: right;
+  margin-right: 0;
+  margin-left: 0;
+}
+.left {
+  text-align: left;
+}
+.mb-5 {
+  margin-bottom: 10px;
+}
 
 .price{
 	
