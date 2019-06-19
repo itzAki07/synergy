@@ -2015,7 +2015,7 @@ body {
     color: black;
     font-size: 13px;
 }
-.row {
+#offer .row {
   display: flex;
   text-align: right;
   margin-right: 0;
