@@ -47,9 +47,13 @@
     #about h2 {
         font-size: 24px;
         font-weight: bold;
+        text-align: center;
     }
     .portfolio {
         padding: 30px
+    }
+    .heading-blue {
+        margin-bottom: 30px;
     }
     .heading-blue h1 {
         margin: 0;
