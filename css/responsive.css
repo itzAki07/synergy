@@ -52,6 +52,10 @@
     .portfolio {
         padding: 30px
     }
+    .clients .clients-bg {
+    padding-top: 20px;
+    background: #3194a4;
+}
     .heading-blue {
         margin-bottom: 30px;
     }
