@@ -102,6 +102,7 @@
     }
     .pricing-bg .pricing {
     padding: 30px 10px;
+        margin-bottom: 10px;
     }
     #offer .row {
         display: block;

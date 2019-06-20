@@ -297,7 +297,7 @@ a:focus {
     .form-wrap-group .form-control {
       margin-bottom: 10px; }
 
-  .btn-red {
+  .`red {
     width: 100%;
     display: block; } }
 @media (min-width: 768px) {
@@ -2031,6 +2031,23 @@ body {
 .price{
 	
 	font-size:30px;
+}
+.span4 .list-group {
+  display: inline-block!important;
+  margin-left: 20px;
+}
+.span4 .img-left {
+  display: inline-block;
+}
+.btn-group {
+  display: block;
+}
+.w {
+  width: 40%;
+}
+.pos {
+      position: relative;
+      left: 25%;
 }
 
 
