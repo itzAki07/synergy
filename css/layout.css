@@ -181,7 +181,7 @@ overflow-y: scroll;
     /* Navbar Brand */
     /* Navbar Nav */ }
     .page-header .navbar-brand img.logo-scroll {
-      display: none; }
+      display: block; }
     .page-header .navbar-nav {
       float: right; }
       .page-header .navbar-nav li > a {
@@ -317,7 +317,7 @@ a:focus {
 @media (max-width: 767px) {
   .no-space-row [class^="col-"],
   .no-space-row [class*="col-"] {
-    padding: 0 15px; } }
+    padding: 0; } }
 /*--------------------------------------------------
 	[BUTTONS]
 ----------------------------------------------------*/
@@ -2048,6 +2048,9 @@ body {
 .pos {
       position: relative;
       left: 25%;
+}
+.red{
+  color: red;
 }
 
 

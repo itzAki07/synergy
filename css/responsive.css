@@ -16,7 +16,7 @@
     body {
         padding-top: 0;
     }
-
+  
      .container-fluid {
         margin: 0!important;
         text-align: center;
@@ -62,6 +62,7 @@
     .heading-blue h1 {
         margin: 0;
         font-size: 25px;
+        padding: 0 1.7rem;
     }
     .nav-tabs li {
         float: none;
@@ -99,19 +100,22 @@
     }
     .btn-group button {
         margin-left: 0!important;
+        float: none!important
     }
     .pricing-bg .pricing {
-    padding: 30px 10px;
+    padding: 30px 0px;
         margin-bottom: 10px;
     }
     #offer .row {
         display: block;
+        padding: 0 10px;
     }
     .pricing-bg .pricing img {
     width: 190px;
     }
     #offer .flex {
         display: flex!important;
+            justify-content: center;
     }
     .pd {
         padding: 0!important;
@@ -133,4 +137,8 @@
     .page-header .navbar-nav li {
     padding: 0;
     }
+    .pricing-bg {
+        padding: 20px 0;
+    }
+
  }
